@@ -9,7 +9,7 @@ permissions:
 jobs:
  build:
    environment: workshop1
-   runs-on: team01
+   runs-on: team-01
    steps:
      - uses: actions/checkout@v7
      - env:
